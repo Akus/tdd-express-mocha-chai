@@ -16,6 +16,10 @@ You can also run the tests using
 npm test
 ```
 
+If you want to change default port: 8000 then you should modify it in files:
+```
+index.js and test/server.js
+```
 ## How to use this project
 This project is divided using git tags.
 Each tag corresponds to a different test in a pass or fail state.
