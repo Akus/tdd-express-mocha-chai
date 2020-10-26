@@ -4,8 +4,8 @@ var rp = require('request-promise');
 
 describe('Message Server', function() {
     var messageServer;
-    var port = process.env.PORT || 8888;
-    var url =  'akos-message-app.herokuapp.com' + port || 'http://localhost:' + port;
+    var port = 8888;
+    var url =  'http://localhost:' + port;
 
     beforeEach(function() {
         return createMessageServer(port)
