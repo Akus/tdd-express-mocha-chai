@@ -27,7 +27,7 @@ module.exports = function(port) {
 
     app.get('/messages', function(req, res) {
         var body = {
-            messages_by_Akos: messages
+            messages: messages
         }
 
         res.status(200).send(body);
