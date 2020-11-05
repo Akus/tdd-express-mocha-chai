@@ -6,6 +6,8 @@ cache:
   - node_modules
 deploy:
   provider: heroku
+  on:
+   tags: true
   api_key:
     secure: AG7KexrIvgRDI5JQJrqraw9h6ZLm+lCvWOn9Aq+aOOo10Detl7D+vpzndXuj1pkZ3x96fLc21FQgw4IF6bmif1XNrruCPznTm1nc/1BAmWlU3nJ0mo3NMsthliP2N3MeXqMDi5aYRzDDMJ8LlZW7dBZuqeXFsiSSqp6JTOn13qu9NmR/uMTJiXz8o+tYPxfd3NdnbOLhuK+6SROBkMWJJqHPxJTuYiWUql4nmT1vmhNAnlAbUp0zkgkjyKXd3oaWSbfXMU01naKtaXuDXjjnKZZGsLDQa0I8f630YcIZDAVJXpXH0firqNOjBXRVU9HmWMCVBb4LxkDtTBF0s9pZiKcroSXI/Em/w29HP5OiykWXGCvJviwkGjyi+PAq1hOM09rI1Ps8NZevspzTrYJHid7FHyVM3Llt7eZvfM5Qw2u4V6MeCjTjq763ylvrpyj5UmEv2QcYsP5c0SjVDDbY1bx/tuLdNsqA/bqVgKTKQITrioa0GkzDfMIF7IYR8mV2U6FzapBbTXmHhWBtARXTAZYcpvhZ3qdafcR2FlGO6+pRnMP8WqrzNcdKDHbd/omVV64j7blx5WwGC12eJzxzuQ1mhxMUFJp/gpDblC+I/Sh0Zxt9iotnfjNb8RFrgMH3BOOuqU0HWK1IsA0lie260I+m+QLexSdLx6+NzJvvSZc=
   app: akos-message-app
